@@ -12,7 +12,7 @@ header{
 }
 
 main{
-    background-color: green;
+    background-color: black;
     color: white;
     height: 80vh;
 }
@@ -27,8 +27,9 @@ footer{
     max-width: 90%;
     color: blue;
     margin: 0 auto;
-    height: 100%;
+    /* height: 100%; */
     vertical-align: middle;
+    padding: 30px;
 
 }
 
@@ -40,12 +41,32 @@ footer{
 
 .card{
     width: calc(100% / 7 - 10px);
-    height: 150px;
-    background-color: aqua;
+    /* height: 150px; */
     border: 1px solid black;
     margin: 5px;
+}
+
+.card{
+    
+}
+
+.album-image{
+    position: relative;
+
+
 }
 
 .album-image img{
     width: 100%;
 }
+
+.name-card{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 0.9rem;
+    padding: 3px;
+}
+
