@@ -88,16 +88,60 @@ footer{
 .visual-option{
     display: flex;
     padding-left: 10px;
+    text-align: center;
+    font-size: 15px;
 }
 
 .microfono{
-    text-align: center;
-    padding-right: 25px;
 
 }
 
-.mute{
+.video{
+    padding-left: 30px;
+}
+
+.main-option{
+    display: flex;
     text-align: center;
+    font-size: 15px;
+}
 
+footer i{
+    font-size: 1.7rem;
+}
 
+.invite{
+    padding-right: 12px;
+}
+
+.manage-participants{
+    padding-left: 20px;
+}
+
+.polling{
+    padding-left: 20px;
+}
+
+.share{
+    padding-left: 20px;
+}
+
+.share i{
+    color: #4AC801;
+}
+
+.option i{
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.padding-sx{
+    padding-left: 20px;
+}
+
+.end-meeting{
+    color: red;
+    background-color: #4A4A4A;
+    padding: 15px;
+    font-size: 15px;
 }
