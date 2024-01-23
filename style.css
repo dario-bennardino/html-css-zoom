@@ -34,14 +34,18 @@ footer{
 
 .gallery{
     display: flex;
+    flex-wrap: wrap;
 
 }
 
 .card{
-    width: calc(100% / 7);
+    width: calc(100% / 7 - 10px);
     height: 150px;
     background-color: aqua;
     border: 1px solid black;
-    margin: 10px;
+    margin: 5px;
+}
 
+.album-image img{
+    width: 100%;
 }
