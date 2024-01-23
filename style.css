@@ -15,6 +15,7 @@ main{
     background-color: black;
     color: white;
     height: 80vh;
+    
 }
 
 footer{
@@ -42,7 +43,6 @@ footer{
 .card{
     width: calc(100% / 7 - 10px);
     /* height: 150px; */
-    border: 1px solid black;
     margin: 5px;
 }
 
